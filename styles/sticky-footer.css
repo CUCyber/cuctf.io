@@ -4,9 +4,9 @@ html {
   position: relative;
   min-height: 100%;
 }
-body {
+/* body {
   margin-bottom: 60px; /* Margin bottom by footer height */
-}
+} */
 .footer {
   position: absolute;
   bottom: 0;
@@ -14,7 +14,7 @@ body {
   height: 60px; /* Set the fixed height of the footer here */
   line-height: 60px; /* Vertically center the text there */
   background-color: #f5f5f5;
-}
+} */
 
 
 /* Custom page CSS
@@ -25,4 +25,31 @@ body {
   width: auto;
   max-width: 680px;
   padding: 0 15px;
+}
+
+/* Custom Blockquote */
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+
+/* Header spacing */
+section {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
