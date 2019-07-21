@@ -4810,6 +4810,7 @@ input[type="button"].btn-block {
 
 .navbar-dark .navbar-brand {
   color: #FA9200;
+  padding: 1rem 1rem;
 }
 
 .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
