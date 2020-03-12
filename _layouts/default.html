@@ -1,37 +1,32 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <link rel="icon" type="image/png" href="/images/favicon.ico">
-    <title>CUCTF</title>
-    <link rel="shortcut icon" href="/images/cuctf-small.png">
-    <meta name="description" content="{{ page.description }}">
-    <meta name="keywords" content="{{ page.keywords }}">
-    <meta name="author" content="{{ page.author }}">
-    <!-- Mobile Specific Metas
-    ================================================== -->
-    <meta name="format-detection" content="telephone=no">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="/styles/sticky-footer.css">
-    <link rel="stylesheet" href="/styles/bootstrap.css">
-  </head>
-  <body>
-    {% include navigation.html %}
-    <main role="main" class="container">
-        <!-- <h1>Coming Soon</h1> -->
-        {{ content }}
-    </main>
+<head> 
 
-  </body>
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="icon" type="image/png" href="images/favicon.ico">
+	<title>CUCTF</title>
+	<link rel="shortcut icon" href="images/cuctf-small.png">
+	<meta name="description" content="{{ page.description }}">
+	<meta name="keywords" content="{{ page.keywords }}">
+	<meta name="author" content="{{ page.author }}">
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+	<link rel="stylesheet" href="styles/./material.min.css">
+	<script src="styles/./material.min.js"></script>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">	
+	
+	{% include navigation.html %}
+    	<main role="main" class="container">
+    	    <!-- <h1>Coming Soon</h1> -->
+    	    {{ content }}
+    	</main>
 
+</head>
 
 </html>
