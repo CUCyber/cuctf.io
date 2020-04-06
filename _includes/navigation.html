@@ -1,26 +1,27 @@
-<nav class="navbar navbar-expand-md navbar-fixed-top navbar-dark bg-dark main-nav">
-  <a class="navbar-brand mr-auto" href="/">CUCTF</a>
-  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="/about">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/register">Register</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/sponsor">Sponsor</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/FAQ">FAQ</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/winners">Winners</a>
-      </li>
-    </ul>
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-color--grey-800">
+  <header class="mdl-layout__header mdl-color--grey-900">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <a class="mdl-layout-title mdl-color-text--orange-A700" href="/"><h2>CUCTF</h2></a>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation. We hide it in small screens. -->
+      <nav class="mdl-navigation mdl-layout--large-screen-only mdl-color--grey-900">
+        <a class="mdl-navigation__link mdl-color-text--grey-500" href="/about"><h4>About</h4></a>
+        <a class="mdl-navigation__link mdl-color-text--grey-500" href="/register"><h4>Register</h4></a>
+        <a class="mdl-navigation__link mdl-color-text--grey-500" href="/sponsor"><h4>Sponsors</h4></a>
+	<a class="mdl-navigation__link mdl-color-text--grey-500" href="/FAQ"><h4>FAQs</h4></a>
+        <a class="mdl-navigation__link mdl-color-text--grey-500" href="/winners"><h4>Winners</h4></a>
+      </nav>
+    </div>
+  </header>
+ <div class="mdl-layout__drawer mdl-color--grey-900">
+    <span class="mdl-layout-title mdl-color-text--orange-A700"><h4>CUCTF</h4></span>
+    <nav class="mdl-navigation mdl-color--grey-900">
+	<a class="mdl-navigation__link" href="/about"><h5>About</h5></a>
+        <a class="mdl-navigation__link" href="/register"><h5>Register</h5></a>
+        <a class="mdl-navigation__link" href="/sponsor"><h5>Sponsors</h5></a>
+	<a class="mdl-navigation__link" href="/FAQ"><h5>FAQs</h5></a>
+        <a class="mdl-navigation__link" href="/winners"><h5>Winners</h5></a>
+    </nav>
   </div>
-</nav>
