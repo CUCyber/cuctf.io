@@ -1,0 +1,20 @@
+---
+# Global configuration
+source: ./
+destination: ./_site
+timezone: America/New_York
+encoding: utf-8
+
+# Serve Configuration
+port: 8080
+host: localhost
+
+# Front-Matter defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      author: ""
+    
