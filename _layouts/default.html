@@ -1,32 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head> 
+	    <meta charset="UTF-8">
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	    <link rel="icon" type="image/png" href="images/favicon.ico">
+	    <title>CUCTF</title>
+	    <link rel="shortcut icon" href="images/cuctf-small.png">
+	    <meta name="description" content="{{ page.description }}">
+	    <meta name="keywords" content="{{ page.keywords }}">
+	    <meta name="author" content="{{ page.author }}">
 
-<head> 
-
-	<meta charset="UTF-8">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<link rel="icon" type="image/png" href="images/favicon.ico">
-	<title>CUCTF</title>
-	<link rel="shortcut icon" href="images/cuctf-small.png">
-	<meta name="description" content="{{ page.description }}">
-	<meta name="keywords" content="{{ page.keywords }}">
-	<meta name="author" content="{{ page.author }}">
-
-	<!-- Mobile Specific Metas
-	================================================== -->
-	<meta name="format-detection" content="telephone=no">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-	<link rel="stylesheet" href="styles/./material.min.css">
-	<script src="styles/./material.min.js"></script>
-	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">	
-	
-	{% include navigation.html %}
+	    <!-- Mobile Specific Metas
+	    ================================================== -->
+	    <meta name="format-detection" content="telephone=no">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- CSS design scripts -->
+	    <link rel="stylesheet" href="styles/./material.min.css">
+	    <script src="styles/./material.min.js"></script>
+	    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">	
+    </head>
+    <body>
+	    {% include navigation.html %}
     	<main role="main" class="container">
-    	    <!-- <h1>Coming Soon</h1> -->
     	    {{ content }}
     	</main>
-
-</head>
-
+    </body
 </html>
