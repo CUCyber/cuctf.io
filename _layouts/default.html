@@ -21,9 +21,11 @@
 	    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">	
     </head>
     <body>
-	    {% include navigation.html %}
-    	<main role="main" class="container">
-    	    {{ content }}
-    	</main>
+        <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-color--grey-800">
+	        {% include navigation.html %}
+    	    <main role="main" class="container">
+    	        {{ content }}
+    	    </main>
+        </div>
     </body>
 </html>
