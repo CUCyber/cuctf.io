@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+/* Image on title screen */
+.title-image{
+    width: 35vw;
+}
+
+/* General text fields */
+.padded-text{
+    padding-left: 20vw;
+    padding-right: 20vw;
+}
