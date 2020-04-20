@@ -1,5 +1,6 @@
 # Global configuration
 timezone: America/New_York
+exclude: ['CNAME']
 
 # Serve Configuration
 port: 8080
