@@ -13,5 +13,11 @@
 
 /* Wide-pictures */
 .wide-image{
-    width: 70vw
+    width: 70vw;
+}
+
+/* Forms */
+.form-register{
+    width: 90vw;
+    border: none;
 }
