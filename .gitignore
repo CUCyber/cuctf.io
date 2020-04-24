@@ -1,2 +1,5 @@
+# Ignore built jekyll site files
 _site/
 
+# Ignore jekyll cache files
+.jekyll-cache/
