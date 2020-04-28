@@ -2,31 +2,32 @@
 <html lang="en">
 
 <head> 
-
 	<meta charset="UTF-8">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<link rel="icon" type="image/png" href="images/favicon.ico">
-	<title>CUCTF</title>
-	<link rel="shortcut icon" href="images/cuctf-small.png">
-	<meta name="description" content="{{ page.description }}">
-	<meta name="keywords" content="{{ page.keywords }}">
-	<meta name="author" content="{{ page.author }}">
-
-	<!-- Mobile Specific Metas
-	================================================== -->
-	<meta name="format-detection" content="telephone=no">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-	<link rel="stylesheet" href="styles/./material.min.css">
-	<script src="styles/./material.min.js"></script>
-	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">	
-	
-	{% include navigation.html %}
-    	<main role="main" class="container">
-    	    <!-- <h1>Coming Soon</h1> -->
-    	    {{ content }}
-    	</main>
-
+	<link rel="icon" type="image/png" href="public/images/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="public/css/materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="public/css/custom.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=PT+Mono" rel="stylesheet">
+	<title>CUCTF/{{ page.title }}</title>
 </head>
+
+<body class="grey darken-4">
+	{% include navigation.html %}
+	{{ content }}
+
+	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+	<script src="public/js/materialize.min.js"></script>
+	<script src="public/js/init.js"></script>
+	<!-- Global Site Tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107591290-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+  
+	  gtag('config', 'UA-107591290-1');
+	</script>
+</body>
 
 </html>
