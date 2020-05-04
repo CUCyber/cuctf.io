@@ -13,13 +13,14 @@
 </head>
 
 <body class="grey darken-4">
-	{% include navigation.html %}
-	{{ content }}
-
 	<!-- Mobile Specific Metas
 	================================================== -->
 	<meta name="format-detection" content="telephone=no">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	{% include navigation.html %}
+	{{ content }}
+
 
 	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
 	<script src="public/js/materialize.min.js"></script>
