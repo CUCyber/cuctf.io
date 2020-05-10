@@ -60,6 +60,12 @@ iframe {
   height: 100%;
 }
 
+iframe.register {
+  height: 100%;
+  width: 100%;
+  border: none;
+}
+
 blockquote {
   border-left: 5px solid #FF7310
 }
