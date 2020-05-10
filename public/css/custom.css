@@ -68,3 +68,17 @@ iframe.register {
 blockquote {
   border-left: 5px solid #FF7310
 }
+
+/* CTF Winners Pages */
+
+#past img.trophies {
+  width: 100%;
+}
+
+#past img.team {
+  width: 100%;
+}
+
+#past h3, h4, h5 {
+    text-align: center;
+}
