@@ -1,0 +1,9 @@
+---
+# Global Configuration
+timezone: America/New_York
+exclude: ['CNAME']
+
+# Server Configuration
+host: localhost
+port: 8080
+...
