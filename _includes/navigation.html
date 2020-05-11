@@ -1,26 +1,25 @@
-<header class="mdl-layout__header mdl-color--grey-900">
-    <div class="mdl-layout__header-row">
-        <!-- Title -->
-        <a class="mdl-layout-title mdl-color-text--orange-A700" href="/"><h2>CUCTF</h2></a>
-        <!-- Add spacer, to align navigation to the right -->
-        <div class="mdl-layout-spacer"></div>
-        <!-- Navigation. We hide it in small screens. -->
-        <nav class="mdl-navigation mdl-layout--large-screen-only mdl-color--grey-900">
-            <a class="mdl-navigation__link mdl-color-text--grey-500" href="/about"><h4>About</h4></a>
-            <a class="mdl-navigation__link mdl-color-text--grey-500" href="/register"><h4>Register</h4></a>
-            <a class="mdl-navigation__link mdl-color-text--grey-500" href="/sponsor"><h4>Sponsors</h4></a>
-	        <a class="mdl-navigation__link mdl-color-text--grey-500" href="/FAQ"><h4>FAQs</h4></a>
-            <a class="mdl-navigation__link mdl-color-text--grey-500" href="/winners"><h4>Winners</h4></a>
-        </nav>
+<div class="navbar-fixed">
+  <nav>
+    <div class="nav-wrapper black">
+      <a href="/" class="brand-logo"><strong>CUCTF</strong> / {{ page.title }}</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="/about">About</a></li>
+        <li><a href="/sponsors">Sponsors</a></li>
+        <li><a href="/faqs">FAQs</a></li>
+        <li><a href="/winners">CUCTF 2019</a></li>
+        <li><a href="/team">Our Team</a></li>
+        <li><a class="clemson-orange white-text" href="/register">Register</a></li>
+      </ul>
     </div>
-</header>
-<div class="mdl-layout__drawer mdl-color--grey-900">
-    <h4><span class="mdl-layout-title mdl-color-text--orange-A700">CUCTF</span></h4>
-    <nav class="mdl-navigation mdl-color--grey-900">
-	    <a class="mdl-navigation__link" href="/about"><h5>About</h5></a>
-        <a class="mdl-navigation__link" href="/register"><h5>Register</h5></a>
-        <a class="mdl-navigation__link" href="/sponsor"><h5>Sponsors</h5></a>
-	    <a class="mdl-navigation__link" href="/FAQ"><h5>FAQs</h5></a>
-        <a class="mdl-navigation__link" href="/winners"><h5>Winners</h5></a>
-    </nav>
+  </nav>
 </div>
+
+<ul class="sidenav" id="mobile-demo">
+  <li><a href="/about">About</a></li>
+  <li><a href="/sponsors">Sponsors</a></li>
+  <li><a href="/faqs">FAQs</a></li>
+  <li><a href="/winners">CUCTF 2019</a></li>
+  <li><a href="/team">Our Team</a></li>
+  <li><a href="/register">Register</a></li>
+</ul>

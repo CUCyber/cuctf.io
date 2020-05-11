@@ -1,0 +1,70 @@
+@import url(//fonts.googleapis.com/icon?family=Material+Icons);
+@import url(//fonts.googleapis.com/css?family=PT+Mono);
+
+html, 
+body {
+    height: 100%;
+    font-family: 'PT Mono', monospace;
+    color: white;
+}
+
+.container {
+  margin-top: 4em;
+}
+
+.brand-logo {
+  margin-left: 0.5em;
+}
+
+.clemson-orange {
+  background-color: #F56600 !important;
+}
+
+.info {
+  color: #ADADAD;
+}
+
+.center {
+  text-align: center;
+}
+
+.clemson-orange-text {
+  color: #FF7310 !important;
+}
+
+.twitter {
+  background-color: #0084b4 !important;
+}
+
+.github {
+  background-color: #333 !important;
+}
+
+img.logo {
+  height: 20em;
+  display: block;
+  margin: 0 auto;
+  margin-top: 4em;
+}
+
+strong {
+  color: #FF7310;
+  font-weight: 900;
+}
+
+p.json {
+  font-size: 24px;
+}
+
+iframe.register {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 1050px;
+  width: 90vw;
+  border: none;
+}
+
+blockquote {
+  border-left: 5px solid #FF7310
+}

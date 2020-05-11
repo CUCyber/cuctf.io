@@ -9,23 +9,22 @@
 	    <meta name="keywords" content="{{ page.keywords }}">
 	    <meta name="author" content="{{ page.author }}">
 
-	    <!-- Mobile Specific Metas
-	    ================================================== -->
-	    <meta name="format-detection" content="telephone=no">
-	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        <!-- CSS design scripts -->
-	    <link rel="stylesheet" href="styles/./material.min.css">
-	    <script src="styles/./material.min.js"></script>
-	    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">	
-        <link rel="stylesheet" href="styles/customizations.css">
-    </head>
-    <body>
-        <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-color--grey-800">
-	        {% include navigation.html %}
-    	    <main class="container">
-    	        {{ content }}
-    	    </main>
-        </div>
-    </body>
+<head> 
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="icon" type="image/png" href="/public/images/shield-small.png">
+	<link rel="stylesheet" href="https://unpkg.com/materialize-css@1.0.0/dist/css/materialize.min.css" integrity="sha512-UJfAaOlIRtdR+0P6C3KUoTDAxVTuy3lnSXLyLKlHYJlcSU8Juge/mjeaxDNMlw9LgeIotgz5FP8eUQPhX1q10A==" crossorigin="anonymous">
+	<link rel="stylesheet" href="/public/css/custom.css">
+	<title>CUCTF/{{ page.title }}</title>
+</head>
+
+<body class="grey darken-4">
+	{% include navigation.html %}
+	{{ content }}
+
+	<script src="https://unpkg.com/jquery@3.2.1/dist/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/materialize-css@1.0.0/dist/js/materialize.min.js" integrity="sha512-NiWqa2rceHnN3Z5j6mSAvbwwg3tiwVNxiAQaaSMSXnRRDh5C2mk/+sKQRw8qjV1vN4nf8iK2a0b048PnHbyx+Q==" crossorigin="anonymous"></script>
+	<script src="/public/js/init.js"></script>
+</body>
+
 </html>

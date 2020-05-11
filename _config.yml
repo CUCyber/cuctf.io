@@ -1,7 +1,9 @@
-# Global configuration
+---
+# Global Configuration
 timezone: America/New_York
 exclude: ['CNAME']
 
-# Serve Configuration
-port: 8080
+# Server Configuration
 host: localhost
+port: 8080
+...
