@@ -20,6 +20,10 @@ body {
   background-color: #F56600 !important;
 }
 
+.clemson-purple {
+  background-color: #522D80 !important;
+}
+
 .info {
   color: #ADADAD;
 }
@@ -30,6 +34,10 @@ body {
 
 .clemson-orange-text {
   color: #FF7310 !important;
+}
+
+.clemson-purple-text {
+  color: #522D80 !important;
 }
 
 .twitter {
