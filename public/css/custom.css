@@ -1,3 +1,6 @@
+@import url(//fonts.googleapis.com/icon?family=Material+Icons);
+@import url(//fonts.googleapis.com/css?family=PT+Mono);
+
 html, 
 body {
     height: 100%;
@@ -53,8 +56,13 @@ p.json {
   font-size: 24px;
 }
 
-iframe {
-  height: 100%;
+iframe.register {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 1050px;
+  width: 90vw;
+  border: none;
 }
 
 blockquote {
