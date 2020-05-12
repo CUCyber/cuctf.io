@@ -40,6 +40,16 @@ body {
   background-color: #333 !important;
 }
 
+.sidenav {
+  background-color: black;
+}
+
+.sidenav li a {
+  background-color: black;
+  color: white;
+  font-size: 18px;
+}
+
 img.logo {
   height: 20em;
   display: block;
