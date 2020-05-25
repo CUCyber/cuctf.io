@@ -1,7 +1,7 @@
 @import url(//fonts.googleapis.com/icon?family=Material+Icons);
 @import url(//fonts.googleapis.com/css?family=PT+Mono);
 
-html, 
+html,
 body {
     height: 100%;
     font-family: 'PT Mono', monospace;
@@ -116,4 +116,16 @@ iframe.register {
 
 #team .card-title {
   text-shadow: 2px 2px 0px #000000 !important;
+}
+
+@media only screen and (min-width: 1200px) {
+  #team .card-content {
+    height: 18em;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  #team .card-content {
+    height: 15em;
+  }
 }
