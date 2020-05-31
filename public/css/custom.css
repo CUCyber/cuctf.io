@@ -1,7 +1,7 @@
 @import url(//fonts.googleapis.com/icon?family=Material+Icons);
 @import url(//fonts.googleapis.com/css?family=PT+Mono);
 
-html, 
+html,
 body {
     height: 100%;
     font-family: 'PT Mono', monospace;
@@ -20,6 +20,10 @@ body {
   background-color: #F56600 !important;
 }
 
+.clemson-purple {
+  background-color: #522D80 !important;
+}
+
 .info {
   color: #ADADAD;
 }
@@ -30,6 +34,10 @@ body {
 
 .clemson-orange-text {
   color: #FF7310 !important;
+}
+
+.clemson-purple-text {
+  color: #522D80 !important;
 }
 
 .twitter {
@@ -102,4 +110,22 @@ iframe.register {
 
 #past h3, h4, h5 {
     text-align: center;
+}
+
+/* Team Page */
+
+#team .card-title {
+  text-shadow: 2px 2px 0px #000000 !important;
+}
+
+@media only screen and (min-width: 1200px) {
+  #team .card-content {
+    height: 18em;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  #team .card-content {
+    height: 15em;
+  }
 }
