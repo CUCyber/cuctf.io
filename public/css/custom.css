@@ -74,12 +74,12 @@ p.json {
   font-size: 24px;
 }
 
-iframe.register {
+#register iframe {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 1050px;
-  width: 90vw;
+  height: 1550px;
+  width: 100%;
   border: none;
 }
 
