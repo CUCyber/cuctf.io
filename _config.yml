@@ -1,9 +1,12 @@
----
-# Global Configuration
+name: CUCTF
+url: https://cuctf.io
+twitter: '@CU_Cyber'
+description: |
+  CUCTF is a jeopardy-style CTF hosted by CU Cyber in which teams are tasked with solving cybersecurity-related tasks in various categories such as digital forensics, binary exploitation, web vulnerability testing, reverse engineering, and cryptography.
+
 timezone: America/New_York
+
 exclude: ['CNAME']
 
-# Server Configuration
 host: localhost
 port: 8080
-...
