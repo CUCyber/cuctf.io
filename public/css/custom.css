@@ -111,6 +111,9 @@ p.json {
 #past h3, h4, h5 {
     text-align: center;
 }
+#past_sponsor {
+  background-color: #333 !important;
+}
 
 /* Team Page */
 
