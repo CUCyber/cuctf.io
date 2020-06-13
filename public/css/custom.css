@@ -133,7 +133,12 @@ p.json {
 
 
 
+/* Sponsor Page */
 
+#benefits {
+  height: 100%;
+  width: 100%;
+}
 
 /* Team Page */
 
