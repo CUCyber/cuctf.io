@@ -70,6 +70,10 @@ strong {
   font-weight: 900;
 }
 
+li {
+  margin: 1em 0;
+}
+
 p.json {
   font-size: 24px;
 }
