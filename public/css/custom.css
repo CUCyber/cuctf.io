@@ -70,18 +70,10 @@ strong {
   font-weight: 900;
 }
 
-
 p.json {
   font-size: 24px;
 }
 
-
-#notice p {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  text-align: center;
-  background-color: #FF7310;
-}
 #register iframe {
   display: block;
   margin-left: auto;
