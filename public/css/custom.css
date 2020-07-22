@@ -59,6 +59,14 @@ body {
   font-size: 18px;
 }
 
+.hover {
+  color: white;
+}
+
+.hover a:hover {
+  color: #F56600;
+}
+
 img.logo {
   height: 20em;
   display: block;
