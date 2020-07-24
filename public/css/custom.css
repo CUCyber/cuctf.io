@@ -92,13 +92,24 @@ p.json {
   font-size: 24px;
 }
 
-#register iframe {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 1400px;
-  width: 100%;
-  border: none;
+@media only screen and (min-width: 1200px) {
+  .softbreak {
+    display: none;
+  }
+}
+
+/* Animations */
+
+#home {
+  min-height: calc(100vh - 56px);
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 601px) {
+  #home {
+    min-height: calc(100vh - 64px);
+    overflow: hidden;
+  }
 }
 
 /* About Page */
@@ -168,4 +179,15 @@ p.json {
   #team .card-content {
     height: 15em;
   }
+}
+
+/* Register Page */
+
+#register iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 1400px;
+  width: 100%;
+  border: none;
 }
