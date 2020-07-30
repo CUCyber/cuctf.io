@@ -145,18 +145,22 @@ p.json {
   color: #00a82c;
 }
 
-#horizontal-logo {
-  padding-top: 8em;
-  padding-bottom: 8em;
-  padding-left: 1em;
-  padding-right: 1em;
-
+#sponsor-image {
+  position: relative;
+  height: 20em;
 }
 
-#vertical-logo {
-  padding-left: 5em;
-  padding-right: 5em;
-  max-height: 25em;
+#sponsor-content {
+  height: 10em;
+}
+
+#sponsor-image img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 /* CTF 2019 page */
 
