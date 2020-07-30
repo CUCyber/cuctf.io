@@ -145,16 +145,16 @@ p.json {
   color: #00a82c;
 }
 
-#sponsor-image {
+#sponsor .card-image {
   position: relative;
   height: 20em;
 }
 
-#sponsor-content {
-  height: 10em;
+#sponsor .card-content {
+  height: 20em;
 }
 
-#sponsor-image img {
+#sponsor img {
   position: absolute;
   top: 0;
   bottom: 0;
