@@ -152,7 +152,7 @@ p.json {
 
 #sponsor .card-content {
   height: 20em;
-  overflow: hidden;
+  overflow: scroll;
 }
 
 #sponsor img {
@@ -165,6 +165,7 @@ p.json {
   padding-top: 1em;
   padding-bottom: 1em;
 }
+
 /* CTF 2019 page */
 
 #past img {
