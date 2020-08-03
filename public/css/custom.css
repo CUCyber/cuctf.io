@@ -152,7 +152,7 @@ p.json {
 
 #sponsor .card-content {
   height: 20em;
-  overflow: scroll;
+  overflow: auto;
 }
 
 #sponsor img {
