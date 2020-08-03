@@ -137,33 +137,39 @@ p.json {
   font-size: 24px;
 }
 
-#palo_color {
+#sponsor .card-image {
+  height: 20em;
+
+  display: flex;
+
+  align-items: center;
+}
+
+#sponsor .card-image img {
+  padding-left: 2em;
+  padding-right: 2em;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  max-width: 100%;
+  max-height: 100%;
+
+  width: auto;
+}
+
+@media only screen and (min-width: 992px) {
+  #sponsor .card-content {
+    height: 20em;
+  }
+}
+
+#paloalto {
   color: #fa582d;
 }
 
-#vector35_color {
+#vector35 {
   color: #00a82c;
-}
-
-#sponsor .card-image {
-  position: relative;
-  height: 20em;
-}
-
-#sponsor .card-content {
-  height: 20em;
-  overflow: auto;
-}
-
-#sponsor img {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  padding-left: 2em;
-  padding-right: 2em;
-  padding-top: 1em;
-  padding-bottom: 1em;
 }
 
 /* CTF 2019 page */
