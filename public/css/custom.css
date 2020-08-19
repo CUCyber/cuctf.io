@@ -58,10 +58,6 @@ a:hover {
   background-color: #333 !important;
 }
 
-.runcode {
-  background-color: #333 !important;
-}
-
 .sidenav {
   background-color: black;
 }
@@ -168,12 +164,20 @@ p.json {
   }
 }
 
-#paloalto a {
+#paloalto > div.card-content > span.card-title a {
   color: #fa582d !important;
 }
 
-#vector35 a {
+#vector35 > div.card-content > span.card-title a {
   color: #00a82c !important;
+}
+
+#runcode > div.card-content > span.card-title a {
+  color: #dc3545 !important;
+}
+
+#runcode > div.card-image {
+  background-color: #333 !important;
 }
 
 /* CTF 2019 page */
