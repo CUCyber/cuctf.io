@@ -145,12 +145,17 @@ p.json {
   align-items: center;
 }
 
+
+#sponsor .l12 .card-image {
+  height: 30em;
+}
+
 #sponsor .card-image img {
   padding-left: 2em;
   padding-right: 2em;
-
-  padding-bottom: 1em;
   padding-top: 1em;
+  padding-bottom: 1em;
+
   margin-left: auto;
   margin-right: auto;
 
@@ -162,6 +167,16 @@ p.json {
 
 @media only screen and (min-width: 992px) {
   #sponsor .card-content {
+    height: 20em;
+  }
+
+  #sponsor .l12 .card-content {
+    height: 12em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #sponsor .l12 .card-image {
     height: 20em;
   }
 }
@@ -183,7 +198,7 @@ p.json {
 }
 
 #crowdstrike > div.card-content > span.card-title a {
-  color: #ec3424;
+  color: #ec3424 !important;
 }
 
 /* CTF 2019 page */
