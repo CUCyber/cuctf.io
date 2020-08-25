@@ -213,6 +213,10 @@ p.json {
   color: #04b367 !important;
 }
 
+#spectorops >  div.card-image {
+  background-color: #14142c !important;
+}
+
 /* CTF 2019 page */
 
 #past img {
@@ -279,7 +283,7 @@ p.json {
 
 @media only screen and (max-width: 600px) {
   #prev-sponsor .l12 .card-image {
-    height: 5em;
+    height: 20em;
   }
 }
 /* Team Page */
