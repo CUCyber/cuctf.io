@@ -145,7 +145,6 @@ p.json {
   align-items: center;
 }
 
-
 #sponsor .l12 .card-image {
   height: 30em;
 }
@@ -179,42 +178,6 @@ p.json {
   #sponsor .l12 .card-image {
     height: 20em;
   }
-}
-
-#paloalto > div.card-content > span.card-title a {
-  color: #fa582d !important;
-}
-
-#vector35 > div.card-content > span.card-title a {
-  color: #00a82c !important;
-}
-
-#runcode > div.card-content > span.card-title a {
-  color: #dc3545 !important;
-}
-
-#runcode > div.card-image {
-  background-color: #333 !important;
-}
-
-#crowdstrike > div.card-content > span.card-title a {
-  color: #ec3424 !important;
-}
-
-#ally > div.card-content > span.card-title a {
-  color: #73406E !important;
-}
-
-#secureworks > div.card-content > span.card-title a {
-  color: #f4423a !important;
-}
-
-#spectorops > div.card-content > span.card-title a {
-  color: #04b367 !important;
-}
-
-#spectorops >  div.card-image {
-  background-color: #14142c !important;
 }
 
 /* CTF 2019 page */
@@ -251,7 +214,6 @@ p.json {
   align-items: center;
 }
 
-
 #prev-sponsor .l12 .card-image {
   height: 30em;
 }
@@ -286,6 +248,45 @@ p.json {
     height: 20em;
   }
 }
+
+/* Sponsor colors */
+
+#paloalto > div.card-content > span.card-title a {
+  color: #fa582d !important;
+}
+
+#vector35 > div.card-content > span.card-title a {
+  color: #00a82c !important;
+}
+
+#runcode > div.card-content > span.card-title a {
+  color: #dc3545 !important;
+}
+
+#runcode > div.card-image {
+  background-color: #333 !important;
+}
+
+#crowdstrike > div.card-content > span.card-title a {
+  color: #ec3424 !important;
+}
+
+#ally > div.card-content > span.card-title a {
+  color: #73406E !important;
+}
+
+#secureworks > div.card-content > span.card-title a {
+  color: #f4423a !important;
+}
+
+#specterops > div.card-content > span.card-title a {
+  color: #04b367 !important;
+}
+
+#specterops > div.card-image {
+  background-color: #14142c !important;
+}
+
 /* Team Page */
 
 #team .card-title {
