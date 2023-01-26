@@ -60,6 +60,7 @@ a:hover {
 
 .sidenav {
   background-color: black;
+  overflow: hidden;
 }
 
 .sidenav li a {
@@ -314,4 +315,46 @@ p.json {
   height: 1400px;
   width: 100%;
   border: none;
+}
+
+.scoreboard {
+  max-width: 60%;
+  max-height: 60%;
+}
+
+.scoreboard-graph {
+  max-width: 80%;
+  max-height: 80%;
+}
+
+.dropdown {
+    list-style-type: none; 
+    padding: 0;  
+    overflow: hidden;
+}
+.dropdown > li {
+    float: left;
+}
+.dropdown li ul {
+    display: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+.dropdown li:hover ul {
+    display: block;
+}
+.dropdown li a {
+    display: block; 
+    text-decoration: none; 
+    text-align: center; 
+    color: white;  
+    background-color: black;  
+}
+
+.dropdown li a:hover {
+    background-color: black; 
+    color: #F56600;
 }

@@ -3,23 +3,34 @@
     <div class="nav-wrapper black">
       <a href="/" class="brand-logo"><strong>{{ site.name }}</strong> / {{ page.title }}</a>
       <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-      <ul class="right hide-on-med-and-down">
+      <ul class="right hide-on-med-and-down dropdown">
         <li><a href="/about">About</a></li>
         <li><a href="/sponsors">Sponsors</a></li>
         <li><a href="/faqs">FAQs</a></li>
-        <li><a href="/2019">CUCTF 2019</a></li>
         <li><a href="/team">Our Team</a></li>
+	<li><a href="#">Past Events</a>
+	  <ul>
+	    </li><a href="/2020">CUCTF 2020</a></li>
+	    </li><a href="/2019">CUCTF 2019</a></li>
+	  </ul>
+	</li>
         <li><a class="clemson-purple" href="/register">Register</a></li>
       </ul>
     </div>
   </nav>
 </div>
 
-<ul class="sidenav hover" id="mobile-demo">
+<ul class="sidenav hover dropdown" id="mobile-demo">
   <li><a href="/about">About</a></li>
   <li><a href="/sponsors">Sponsors</a></li>
   <li><a href="/faqs">FAQs</a></li>
-  <li><a href="/2019">CUCTF 2019</a></li>
   <li><a href="/team">Our Team</a></li>
+  <li><a href="#">Past Events</a>
+    <ul>
+      </li><a href="/2020">CUCTF 2020</a></li>
+      </li><a href="/2019">CUCTF 2019</a></li>
+    </ul>
+  </li>
+  <li><a href="/results">Results</a></li>
   <li><a class="clemson-purple" href="/register">Register</a></li>
 </ul>
